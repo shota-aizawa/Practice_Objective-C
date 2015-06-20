@@ -21,13 +21,24 @@ int main(int argc, const char * argv[]) {
         
         int stormCategory = 4;
         
-        if (stormCategory !=1 ) {
-            NSLog(@"Storm's a coming!");
+        switch (stormCategory) {
+            case 1:
+                NSLog(@"Time to get indoors");
+                break;
+            case 2:
+                NSLog(@"Extensive damage -run and hide");
+                break;
+            case 3:
+                NSLog(@"Devastating damage! oh no!");
+                break;
+            case 4:
+                NSLog(@"Catastrophic damage! Game over!");
+                break;
+                
+            default:
+                break;
         }
         
-        if (stormCategory ==4 || stormCategory==5) {
-            NSLog(@"Catastrophe!");
-        }
     }
     return 0;
 }
