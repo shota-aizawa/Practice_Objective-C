@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Player.h"
 
 void myFunction();
 
@@ -17,7 +18,15 @@ int main(int argc, const char * argv[])
         
         myFunction();
         
+        NSString *firstWord = @"one";
+        NSString *secondWord = @"large";
+        NSString *thirdWord;
+        thirdWord = @"pomegranate";
         
+        NSLog(@"The NSString objects are %@ and %@", secondWord,firstWord);
+        
+        Player *playerObject = [[Player alloc] init];
+        NSLog(@"The score is %i", [playerObject score]);
         
     }
     return 0;

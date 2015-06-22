@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4EFD8C21B37AEFA0060273A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EFD8C11B37AEFA0060273A /* Player.m */; };
 		F4257989181F315600CAF55A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4257988181F315600CAF55A /* Foundation.framework */; };
 		F425798C181F315600CAF55A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F425798B181F315600CAF55A /* main.m */; };
 		F4257990181F315600CAF55A /* FunctionStarter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F425798F181F315600CAF55A /* FunctionStarter.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D4EFD8C01B37AEF90060273A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../Player.h; sourceTree = "<group>"; };
+		D4EFD8C11B37AEFA0060273A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = ../Player.m; sourceTree = "<group>"; };
 		F4257985181F315600CAF55A /* FunctionStarter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FunctionStarter; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4257988181F315600CAF55A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F425798B181F315600CAF55A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 			children = (
 				F425798B181F315600CAF55A /* main.m */,
 				F425798F181F315600CAF55A /* FunctionStarter.1 */,
+				D4EFD8C01B37AEF90060273A /* Player.h */,
+				D4EFD8C11B37AEFA0060273A /* Player.m */,
 				F425798D181F315600CAF55A /* Supporting Files */,
 			);
 			path = FunctionStarter;
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EFD8C21B37AEFA0060273A /* Player.m in Sources */,
 				F425798C181F315600CAF55A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +259,7 @@
 				F4257995181F315600CAF55A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
