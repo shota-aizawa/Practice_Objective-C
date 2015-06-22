@@ -28,6 +28,15 @@ int main(int argc, const char * argv[])
         Player *playerObject = [[Player alloc] init];
         NSLog(@"The score is %i", [playerObject score]);
         
+        // define an array of 5 ints
+        int multipleValues[5] = {10,100,1000,10000,100000};
+        NSLog(@"The thid pbject is %i",multipleValues[2]);
+        NSString *myStringArray[5] = {@"first",@"second",@"third",@"fourth",@"fifth"};
+        NSLog(@"The third string element is %@", myStringArray[2]);
+        
+        NSArray *myArray = [[NSArray alloc]initWithObjects:@"one",@"two",@"third", nil];
+        NSLog(@"The third object is %@", myArray[2]);
+        
     }
     return 0;
 }
@@ -36,7 +45,7 @@ int main(int argc, const char * argv[])
 // a simple loop
 void myFunction() {
 
-for ( int i = 1 ; i < 5000 ; i++ ) {
+for ( int i = 1 ; i < 3000 ; i++ ) {
     if (i % 5 == 0) {
         continue;  // jump back to the top.
     }
