@@ -37,6 +37,26 @@ int main(int argc, const char * argv[])
         NSArray *myArray = [[NSArray alloc]initWithObjects:@"one",@"two",@"third", nil];
         NSLog(@"The third object is %@", myArray[2]);
         
+        NSMutableDictionary * states = [[NSMutableDictionary alloc]initWithObjectsAndKeys:
+                                        @"Arizona",@"AZ",
+                                        @"Colorado",@"CO",
+                                        @"Hawaii",@"HI",
+                                        @"New Mexico",@"NM",
+                                        nil];
+        // only with mutable dictionary
+        [states setObject:@"Florida" forKey:@"FL"];
+        
+        NSString *someState = @"AZ";
+        NSLog(@" %@ is for %@", someState, [states objectForKey:someState ]);
+        // short hand
+        NSLog(@" %@ is for %@",someState, states[@"AZ"]);
+        
+        NSDictionary *quicker = @{
+                                  @"AZ" : @"Arizona",
+                                  @"CA" : @"California",
+                                  @"FL" : @"Florida"
+                                  };
+        
     }
     return 0;
 }
