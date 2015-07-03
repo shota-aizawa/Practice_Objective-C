@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0C0FE232-D069-4923-99B7-1255E8C0F36B</string>
+	<string>70446BA2-417F-4D94-A239-FFDCF196D179</string>
 	<key>IDESourceControlProjectName</key>
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/shota-aizawa/Practice_Objective-C.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FunctionStarter/FunctionStarter.xcodeproj/project.xcworkspace</string>
+	<string>Student/Student.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6E3C9C41BEACA5C577E26698CBFFBD0861DAB70E</key>
